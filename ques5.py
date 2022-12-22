@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Dec 22 16:45:18 2022
+
+@author: LENOVO
+"""
+
+print("\nQuestion 5")
+
+string = "ABCDEFGHIJK"
+j = 0
+while len(string)-j*2 >= 1:
+    print(" "*j, string[0 : len(string) - j*2])
+    j += 1
